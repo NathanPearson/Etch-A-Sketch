@@ -11,9 +11,11 @@
 <body>
     <div class="container">
         <h1>Etch-A-Sketch</h1>
-        <button id="clear" onClick="clearPad()">Clear the Drawing Pad</button>
-        <button id="resize" onClick="resizePad()">Resize the Drawing Pad</button>
-        <button id="resize" onClick="changeMode('color')">Turn on the Color!</button>
+        <div class="btn-row">
+            <button id="clear" onClick="clearPad()">Clear the Drawing Pad</button>
+            <button id="resize" onClick="resizePad()">Resize the Drawing Pad</button>
+            <button id="resize" onClick="changeMode('color')">Turn on the Color!</button>
+        </div>        
         <div id="pad" class="pad"></div>
     </div>
     <script src="scripts.js"></script>
